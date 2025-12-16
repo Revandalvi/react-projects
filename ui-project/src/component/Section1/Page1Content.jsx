@@ -7,7 +7,7 @@ function Page1Content(props) {
     <div className='py-10  flex items-center gap-10 px-18 h-[90vh] '>
         <LeftContent/>
         <RightContent users={props.users}/>
-
+  
     </div>
   )
 }
